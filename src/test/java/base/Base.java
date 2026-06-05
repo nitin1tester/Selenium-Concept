@@ -11,6 +11,8 @@ public class Base {
     @BeforeTest
     public void setup() {
         driver = new ChromeDriver();
+        driver.manage().deleteAllCookies();
+        driver.manage().window().maximize();
 
     }
 
