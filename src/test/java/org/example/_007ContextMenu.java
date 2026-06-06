@@ -18,7 +18,7 @@ public class _007ContextMenu extends Base{
         Actions actions = new Actions(driver);
         Thread.sleep(10000);
         WebElement webElement =  driver.findElement(By.id("hot-spot"));
-        actions.contextClick(webElement).perform();
+        actions.contextClick(webElement).perform(); // Right Click
         Thread.sleep(10000);
         driver.switchTo().alert().accept();
         Thread.sleep(10000);
