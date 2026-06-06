@@ -8,7 +8,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import javax.swing.text.html.Option;
 import java.time.Duration;
 import java.util.List;
@@ -26,7 +25,7 @@ public class _010Dropdown extends Base {
         for (WebElement e : webElements){
             System.out.println(e.getText());
         }
-        //using steam
+        //using stream
         webElements.stream().forEach(e -> System.out.println(e.getText()));
 
         select.selectByVisibleText("Option 1");
