@@ -29,5 +29,4 @@ public class _009DragAndDrop extends Base {
         Assert.assertNotEquals(headerNameBefore,headerNameAfter,"Not position got change");
         
     }
-
 }
